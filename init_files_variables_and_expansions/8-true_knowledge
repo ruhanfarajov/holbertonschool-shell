@@ -1,2 +1,2 @@
 #!/bin/bashh 8-true_knowledge
-echo $((TRUEKNOWLEDGE+128))
+export TRUEKNOWLEDGE=1209 | echo $((TRUEKNOWLEDGE+128)) | cat -e
