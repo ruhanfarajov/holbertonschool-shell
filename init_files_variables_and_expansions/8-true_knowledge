@@ -1,0 +1,2 @@
+#!/bin/bashh 8-true_knowledge
+echo $((TRUEKNOWLEDGE+128))
