@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# This script is displaying hours
+i=0
+while [[ "$i" -le 12 ]]
+do
+	echo "Hour: $i"
+	f=1
+	while [[ "$f" -le 59 ]]
+	do
+		echo "$f"
+		((f=f+1))
+	done
+	((i=i+1))
+done
