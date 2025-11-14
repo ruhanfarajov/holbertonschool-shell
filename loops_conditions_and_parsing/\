@@ -1,7 +1,0 @@
-#!/usr/bin/env bash 
-#This is doing the right thing
-
-files=( * )
-
-for i in files
-do
