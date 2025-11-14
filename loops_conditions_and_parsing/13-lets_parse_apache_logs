@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #this is doing the right thing
 
-awk '{print $1}' ./apache-access.log
+cat ./apache-access.log | awk '{print $1}' |tail -n 10
