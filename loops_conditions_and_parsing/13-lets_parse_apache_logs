@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #this is doing the right thing
 
-cat apache-access.log | awk '{print $1}'
+cat apache-access.log | awk '{print $1 " " $9}'
