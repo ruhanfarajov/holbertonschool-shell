@@ -3,7 +3,7 @@
 
 files=$(ls)
 
-f:qor i in $files
+for name in $files
 do
-	echo $i
+	echo "${name#*-}" 
 done
