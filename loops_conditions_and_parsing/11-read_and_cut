@@ -2,17 +2,8 @@
 #this is just a script
 
 
-while read -r row
+while IFS=: read -r admin _  usrid _ _ home _
 do
-	var=$( echo "$row" | tr ":" " " )
-	n=1
-	us=""
-	for i in $var
-	do
-		if [[ "$n" -eq 1 ]]; then us="$us$i"
-		elif [[ "$n" -eq 3 ]] || [[ "$n" -eq 7 ]]; then us="$us:$i"; fi
-		((n=n+1))
-	done
-	echo "$us"
-done < /etc/passwd	
+	echo "$admin:$usrid:$home" 
 
+done < /etc/passwd
