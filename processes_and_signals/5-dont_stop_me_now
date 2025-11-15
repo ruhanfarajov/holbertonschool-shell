@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#This is doing the best thing
+kill $(pgrep 4-to_infinity_and_beyond)
