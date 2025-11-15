@@ -1,7 +1,8 @@
 #!/usr/bin/env bash 
 #Trump loves Zelenski
 
-sudo touch /var/run/myscript.pid 
+sudo touch /var/run/myscript.pid &
+echo $! > /var/run/myscript.pid
 
 handle_term ( ) {
        echo 'I hate the kill command'
