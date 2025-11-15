@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#this is doing description thing
+lines=$(pgrep bash)
+for i in $lines
+do 
+	printf "%s\n" "$i bash"
+done
