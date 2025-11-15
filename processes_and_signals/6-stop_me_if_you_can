@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#this is the right thing. WE MAKE AMERICA GREAT AGAIN
+pkill -f  "4-to_infinity_and_beyond"
+
