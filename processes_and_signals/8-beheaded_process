@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#MAKING AMERICA GREAT AGAIN
+
+pkill -9  -f  7-highlander
